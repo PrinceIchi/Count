@@ -50,13 +50,18 @@ button {
     1px 1px 0 #000;
 }
 
-#increment-btn {
+#add-btn {
     background: darkmagenta;
+}
+
+#subtract-btn {
+    background: darkorange;
 }
 
 #save-btn {
     background: darkgreen;
 }
+
 #reset-btn {
-    background: darkgoldenrod;
+    background: darkred;
 }

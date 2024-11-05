@@ -4,8 +4,13 @@ let totalEl = document.getElementById("total-el")
 let count = 0
 let countTotal = 0
 
-function increment() {
+function add() {
     count += 1
+    countEl.textContent = count
+}
+
+function subtract() {
+    count -= 1
     countEl.textContent = count
 }
 
