@@ -18,17 +18,14 @@ function save() {
     let countStr = [];
     countStr.push(count);
 
-    let prevEntry = [];
-    prevEntry.push(count)
-
+    for (let i = 0; i < countStr.length; i++) {
+        countTotal += countStr[i];
+        totalEl.textContent = "Total: " + countTotal
+    }
+    
     saveEl.textContent += countStr + ' , ';
     countEl.textContent = 0;
     count = 0;
-    
-for (let i = 0; i < prevEntry.length; i++) {
-    countTotal += prevEntry[i];
-    totalEl.textContent = "Total: " + countTotal
-}
 }
 
 function reset() {
